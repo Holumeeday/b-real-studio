@@ -1,0 +1,168 @@
+/* .container-fluid{
+    /* background-color: #000;
+    color: white;
+    
+} */
+
+.number1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.head{
+    /* background: linear-gradient(to left,  #ff6600 0%, #7b16d9 100%); */
+    font-size: 4.5rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    color: #ffcd00;
+    
+    -webkit-text-color:transparent ;
+}
+
+.vid1{
+  
+}
+
+#step{
+    position: absolute;
+    top: 10%;
+}
+
+#step1{
+    position: relative;
+    left:18% ;
+    top: 10%;
+}
+
+
+/* carolsel */
+
+.voice{
+    position: relative;
+    left: 10%;
+} 
+.ref1{
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    /* color: #3D3B42; */
+    color: white;
+    font-weight: bold;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+.p1{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 27px;
+    width: 50%;
+    /* margin: 0 0 10px;
+    padding: 10px; */
+}
+
+.work{
+    width: 27%;
+    position: relative;
+    left: 60%;
+    margin-top: -15%;
+}
+
+/* need a booking */
+
+.need{
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.h-gradient{
+    background: linear-gradient(to left, #FF6600 0%, #7B16D9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    /* background-color: white;
+    padding: 10px;
+    color: rgb(182, 155, 155);
+    border: none;
+    border-radius: 50px;
+    */
+
+    color: #3D3B42;
+    position: relative;
+    padding: 19px 45px 20px 45px;
+    box-sizing: border-box;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 40px;
+    overflow: visible;
+    font-size: 16px;
+    height: auto;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    
+}
+
+.theme-front{
+    position: relative;
+    top: 50%;
+    left: 50%; 
+}
+
+.theme{
+    color: #FF6600 !important;
+}
+
+/* Bookings */
+
+.book{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.bookme{
+ position: relative;
+ left: 20%;
+    width: 60%;
+}
+
+.producer{
+    background: linear-gradient(270deg, #FF6600 0%, #7B16D9 100%);
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+.engineer{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.engineer:hover{
+    background: linear-gradient(270deg, #FF6600 0%, #7B16D9 100%);
+    border: none;
+    color: white;
+}
+
+.assistant{
+    border: 2px solid black;
+    
+}
+
+.assistant:hover{
+    background: linear-gradient(270deg, #FF6600 0%, #7B16D9 100%);
+    border: none;
+    color: white;
+}
