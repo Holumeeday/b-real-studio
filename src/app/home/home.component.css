@@ -4,9 +4,31 @@
     
 } */
 
+/* Header ---> slider */
+
+.ref1{
+    position: relative;
+    margin-top:20%;
+    left: 30%;
+    
+    background: linear-gradient(to left, #FF6600 0%, #7B16D9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p2{
+    position: relative;
+    
+    left: 33%;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+}
+
 .number1{
     background-size: cover;
     background-repeat: no-repeat;
+   
     
 }
 
@@ -18,6 +40,12 @@
     color: #ffcd00;
     
     -webkit-text-color:transparent ;
+}
+
+.image{
+    position: relative;
+    left: 40%;
+    border-radius: 10px;
 }
 
 .vid1{
@@ -41,6 +69,7 @@
 .voice{
     position: relative;
     left: 10%;
+    margin-top: 10%;
 } 
 .ref1{
     font-size: 48px;
@@ -56,6 +85,7 @@
 .p1{
     font-size: 17px;
     line-height: 1.6;
+    margin-top: 30px;
     margin-bottom: 27px;
     width: 50%;
     /* margin: 0 0 10px;
@@ -165,4 +195,137 @@
     background: linear-gradient(270deg, #FF6600 0%, #7B16D9 100%);
     border: none;
     color: white;
+}
+
+
+.soneed{
+    padding: 19px 10px 42px 10px; 
+    background: #343337;
+    color: #D3D3D5;
+     margin-top: 110px;
+      margin-bottom: 50px;
+}
+
+
+
+/* Reference */
+
+.customer{
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+}
+
+.p3{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 27px;
+    width: 50%;
+    /* margin: 0 0 10px;
+    padding: 10px; */
+
+}
+
+.name{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 27px;
+    background: linear-gradient(to left, #FF6600 0%, #7B16D9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .image{
+        position: relative;
+        left: 2%;
+        border-radius: 10px;
+    }
+
+
+    .need{
+        font-size: 48px;
+        line-height: 50px;
+        letter-spacing: -0.03em;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    .soneed{
+        padding: 19px 10px 42px 10px; 
+        background: #343337;
+        color: #D3D3D5;
+         margin-top: 110px;
+          margin-bottom: 50px;
+    }
+
+
+    .btn{
+    
+        color: #3D3B42;
+        position: relative;
+        padding: 19px 45px 20px 45px;
+        box-sizing: border-box;
+        background-clip: padding-box;
+        border: none;
+        border-radius: 40px;
+        overflow: visible;
+        font-size: 16px;
+        height: auto;
+        font-weight: bold;
+        text-transform: none;
+        letter-spacing: -0.01em;
+        text-decoration: none;
+        background-color: white;
+        position: relative;
+        top: 50%;
+        left: 24%; 
+        
+    }
+
+    .theme-front{
+        position: relative;
+        top: 50%;
+        left: 20%;
+        margin-bottom: 20px;
+        font-size: 15px; 
+    }
+
+
+.book{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+.bookme{
+ position: relative;
+ left: 20%;
+    width: 60%;
+    font-size: 18px;
+}
+
+.producer{
+    background: linear-gradient(270deg, #FF6600 0%, #7B16D9 100%);
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+}
+
+.engineer{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 3px;
+
+}
+
+.assistant{
+    border: 2px solid black;
+    margin: 3px;
+    
+}
+
 }
