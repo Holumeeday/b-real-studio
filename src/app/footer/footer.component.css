@@ -1,8 +1,11 @@
 .foot{
     padding: 60px;
     /* background: salmon; */
-    color: #D3D3D5;
+    /* color: #D3D3D5; */
+    color: white;
     background-size: cover;
+
+
 }
 
 .last{
